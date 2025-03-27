@@ -13,7 +13,6 @@ import java.util.List;
  * JSGE basic project template.
  *
  * @author Prof. Dr. David Buzatto
- * Modificado por: João Pedro Machado Silva, BV3032477
  */
 public class Main extends EngineFrame {
 
@@ -147,7 +146,7 @@ public class Main extends EngineFrame {
             int x = tamanhoCelula + (j * tamanhoCelula);
             int y = tamanhoCelula + (i * tamanhoCelula);
 
-            char cell = output[i][j]; 
+            char cell = output[i][j];
             if (cell != 's' && cell != 't') {
                 fillRectangle(x, y, tamanhoCelula, tamanhoCelula, corCaminhoPercorrido);
             }

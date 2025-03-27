@@ -9,7 +9,6 @@ import java.util.List;
  * Um resolvedor de labirintos que usa backtracking.
  * 
  * @author Prof. Dr. David Buzatto
- * Modificado por: João Pedro Machado Silva, BV3032477
  */
 public class LabyrinthSolver {
     
